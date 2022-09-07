@@ -1,4 +1,4 @@
-## Background ##
+## Background
 React can be used with any tech stack which is rendered by any browser (mobile, Android & iOS, desktop browser) so long as the tech stack incorporates javascript. 
 
 ## Keywords
