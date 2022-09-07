@@ -1,0 +1,26 @@
+  I STARTED DOING DS&A IN JAVA TODAY. Here are syntax or conceptual observations
+
+Java points to the memory location of an object or an array when you try to print it out, therefore, I use the System.out.print(Arrays.toString(myArr)) to print an object out.
+
+Java lets me create an array and use characters for the index. E.g. map[‘a’] = 1; is perfectly valid and uses int(a) = 97 as the index. This is probably because in Java I first HAVE to give the array a size in order to be able to Instantiate the array in order to then be able to put values in the array. Therefore, indexing a Java array using characters is no big deal, so long as the array is int[] myArr = new int[128]   i.e. the ASCII characters <128 has a size of at least 128 i.e. myArr.length is at least 128.
+
+The syntax for the methods for the HashMap object in Java is so bad/unwieldy. The methods to add a new key and get values at a key are written in long syntax, and I don’t like it. I will try using a POJO as a hash tomorrow, since today I tried using HashMap<Character, Integer> and I also used an array of size 128 to represent a hash to hold letters of the alphabet.
+
+I realize that in Java, a string length is found using s1.length()   but an array length is found using myArr.length
+
+In HashMap<here, here>.....  I for some reason need to use the full data type name e.g. ‘Integer’ not ‘int’ and ‘Character’ not ‘char’. Well, I know the reason.
+
+Java has a s.substring(idx1, idx2) method
+
+Java has a s1.contains(s2) method
+
+Objects.requireNonNullElse(T obj, T defaultObj)
+
+Some ArrayList method  .add(index, value)    .get(index)   .remove(index)   .size() 
+
+OOP static keyword:
+A static method can not access any non-static methods or members of that class nor of another class. 
+
+The import java.util.LinkedList class has an inbuilt ability to be printed, when you use System.out.println(myLL);
+
+The java.util.Queue class has two methods .offer() and .poll() which work as enqueue and dequeue respectively.
