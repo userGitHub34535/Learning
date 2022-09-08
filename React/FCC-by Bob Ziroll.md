@@ -7,7 +7,7 @@ Imperative is like a recipe - do this, then this then =this & logic is strewn in
 
 
 
-(functional) components use <PascalCase /> 
+(functional) components use PascalCase
 
 
 I can clean up child-components/components into their own folders. Naming convention: make sure you name the file as the same name as the component which is the same name as the js function.
