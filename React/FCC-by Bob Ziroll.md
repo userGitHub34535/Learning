@@ -36,9 +36,4 @@ Create-react-app has most of the webpack configuration done under the hood. If I
 
 
 
-In manifest.json I did  "theme_color": "#18161b", //"#000000"
-  "background_color": "#d5c3ef" //"#ffffff"
-
-
-
 
