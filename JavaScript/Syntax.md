@@ -17,7 +17,7 @@ When using a curly brace { in a JS ES6 lambda function, you MUST explicitly use 
 
 
 ## const ##
-Declare a variable as a const when you do not want to change the value of the variable at any later time. N.b, if an object or array is declared as a cont, then you can update the values within the object or array, but (I believe) not reassign some other object/array to the const. Const doesn’t quite mean that the variable value is immutable, but rather, that within the given scope, the variable-name can not be reassigned to some other value. 
+Declare a variable as a const when you do not want to point this variable name to a different object at any later time. const means that the reference to a location in memory (pointer) never changes after you initially declare the const variable. This is why when an object or an array is declared as a const, then you can update the values within the object or array, but you can not reassign the variable-name to some other object/array/value. Const doesn’t quite mean that the variable value is immutable, but rather that within the given scope, the variable-name can not be reassigned to a new location in memory. When JS "let" primitive datatype variables are updated from one value to some other value, I believe that JavaScript creates a new location in memory and reassigns the variable name to this new location in memory, thus, the variable is updated; I do not beleive that JS updates the value stored at the previous location in memory.  
 
  
 
