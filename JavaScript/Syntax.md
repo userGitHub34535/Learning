@@ -14,3 +14,13 @@ You can see if something is a key in an object by doing if(myKey in myObj) {}
 
 
 When using a curly brace { in a JS ES6 lambda function, you MUST explicitly use the "return" keyword. If you just need to return a single line from the lambda function, have no curly braces, and instead just return the single line from the function, with no "return" key word. JS won't even throw a compile time error if you miss this return - it will simply compile and then not do the process you were expecting/or in react, not render the component that you were expecting to be returned. 
+
+
+## const ##
+Declare a variable as a const when you do not want to change the value of the variable at any later time. N.b, if an object or array is declared as a cont, then you can update the values within the object or array, but (I believe) not reassign some other object/array to the const. Const doesn’t quite mean that the variable value is immutable, but rather, that within the given scope, the variable-name can not be reassigned to some other value. 
+
+ 
+
+
+## Export and Import ##
+todo
